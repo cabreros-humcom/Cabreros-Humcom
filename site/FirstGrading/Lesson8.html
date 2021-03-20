@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="M.Blas">
+        <title>
+            HTML Form Elements
+        </title>
+    </head>
+    <body>
+        <form>
+            <table align="center" width="80%">
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" id="fname" size="50" required></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number</label></td>
+                    <td><input type="tel" size="15"required placeholder="123-444-1234" pattern=[0-9]{3}-[0-9]{3}-[0-9]{4}></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Phone Number</label></td>
+                    <td><input type="tel" size="15"required placeholder="+XXX-0XXX-XXX-XXXX" pattern=[0-9]{3}-[0-9]{3}-[0-9]{4}></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password</label></td>
+                    <td><input type="password" id="pwd" size="25" maxlength="15" minlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">Birthday</label></td>
+                    <td><input type="date" id="bday" min="2000-01-01" max="2020-01-01" ></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><select id="Gender" name="gender">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course</label></td>
+                    <td><input type="radio" id="course" name="course" value="BSIT"><lable>BSIT</lable>
+                        <input type="radio" id="course" name="course" value="BSCS"><lable>BSCS</lable>
+                        <input type="radio" id="course" name="course" value="BSCpE"><lable>BCpE</lable>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hob">Hobbies</label></td>
+                    <td><input type="checkbox" id="hob" name="hobby1" value="Music"><lable>Music</lable>
+                        <input type="checkbox" id="hob" name="hobby2" value="Sports"><lable>Sports</lable>
+                        <input type="checkbox" id="hob" name="hobby3" value="Games"><lable>Games</lable>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="Submit" value="Submit">
+                    </td>
+            </table>
+        </form>
+    </body>
+</html>

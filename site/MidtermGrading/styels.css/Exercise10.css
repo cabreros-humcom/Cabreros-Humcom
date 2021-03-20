@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(rgba(189, 0, 0, 0.5),rgba(189,0,0,0.5)), url();
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    header, nav, section, footer{
+        font-family:;
+        text-shadow: 1px 1px rgb(209, 46, 73);
+        border: 1px solid #ccc;
+        text-align:center;
+        float: left;
+        width: 76%;
+        margin: 15px 15px;
+    }
+    header{    
+        height: 37%;
+        float: left;
+        width: 17%;
+    }
+    header.logo_img{
+        float: left;
+        width: %;
+    }
+    nav{
+        text-align: center;
+        font-size: x-large;
+        width: 32%;
+        float: right;
+        list-style-type: none;
+        margin: 25px;
+        width: 50;
+        
+    }
+    nav a{
+        float: left;
+        display: inline-block;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 5px 20px;
+        border-style: 1px solid white;
+        transition: 0.3s ease
+    }
+    nav a:hover{
+        background-color: whitesmoke;
+        color: black;
+    }
+    nav.active a{
+        background-color: whitesmoke;
+        color: black;
+    }
+    .S1{
+        background-image: url("../img/maxresdefault.jpg");
+        background-size: 100%;
+        width: 66%;
+        color: rgb(255, 255, 255);
+        padding: 100px;
+        border: 1px solid rgb(5, 5, 5);
+    }
+    .S2{
+        background-image: url("../img/iStock-959080376.jpg");
+        background-size: 100%;
+        width: 66%;
+        color: rgb(255, 255, 255);
+        padding: 100px;
+        border: 1px solid rgb(5, 5, 5);
+    }
+    .S3{
+        background-image: url("../img/millimetre-from-3-idiots-looks-unrecognizable-now-1400x653-1536073818.jpg");
+        background-size: 100%;
+        width: 66%;
+        color: rgb(255, 255, 255);
+        padding: 100px;
+        border: 1px solid rgb(5, 5, 5);
+    }
+    footer{
+    }
