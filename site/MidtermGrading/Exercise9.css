@@ -16,3 +16,12 @@
         <th wight=""><font color="white" size="5"><a href="https://www.dota2.com/spoilsofwar/faq" target="blank">FAQ</font></a></th>
 </body>
 </html>
+body{
+    background-image: linear-gradient(rgba(189, 0, 0, 0.5),rgba(189,0,0,0.5)), url();
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 250px;
+    margin-right: 300px;
+    }
+    

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<head>
+    <title>Exercise 11</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 12px;
+    background-color: #363535;
+    text-align: center;
+}
+.container{
+    max-width: 80%;
+    background-color: #ffffff;
+    height: 700px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+h1{
+    margin: 0;
+    font-size: 25px;
+}
+.s1{
+    margin-left: 13px;
+    margin-top: 10px;
+    text-align: center;
+    width:98%;
+    height: 120px;
+    background-color: #7e7878;
+    border: 1px solid black;
+}
+.s1 .content{
+    text-align: center;
+    width: 98%;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.s1 .content .nav{
+    width: 100%;
+    text-align: center;
+}
+.s1 .content .nav .box{
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.s2{
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    float: left;
+    width: 28%;
+    padding: 10px;
+    height: 1000px;
+    opacity: 100;
+    background-color: #7e7878;
+    border: 1px solid black;
+}
+.s2 .content{
+    text-align: center;
+    width: 98%;
+    margin-left: 3px;
+    margin-top: 15px;
+}
+.s2 .content .header{
+    width: 100%;
+    text-align: center;
+}
+.s2 .content .header .card{
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+.s2 .content1{
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.s2 .content1 .nav{
+    width: 100%;
+    text-align: center;
+}
+.s2 .content1 .nav .card{
+    height: 775px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+.s2 .content2{
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.s2 .content2 .footer{
+    width: 100%;
+    text-align: center;
+}
+.s2 .content2 .footer .card{
+    height: 60px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.s3{
+    margin-top: 13px;
+    margin-right: 14px;
+    margin-bottom: 10px;
+    float: right;
+    width: 69%;
+    padding: 10px;
+    height: 1000px;
+    background-color: #7e7878;
+    border: 1px solid black;
+}
+.s3 .content{
+    text-align: center;
+    width: 98%;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+.s3 .content .header{
+    width: 100%;
+    text-align: center;
+}
+.s3 .content .header .card{
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+.s3 .content1{
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.s3 .content1 .article{
+    width: 100%;
+    text-align: center;
+}
+.s3 .content1 .article .card{
+    height: 375px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    background-color:  #7e7878;
+    border: 1px solid black;
+}
+
+.s3 .b1{
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    }
+.s3 .b1 .box1{
+    width: 100%;
+    text-align: center;
+    }
+.s3 .b1 .box1 .card{
+    height: 50px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+    }
+
+.s3 .b2{
+    text-align: center;
+    width: 103%;
+    margin-top: 32px;
+ }
+.s3 .b2 .box2{
+    width: 100%;
+    text-align: center;
+}
+.s3 .b2 .box2 .card{
+    margin-right: 29px;
+    height: 50px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.s3 .b3{
+    text-align: center;
+    width: 100%;
+    margin-top: 32px;
+}
+.s3 .b3 .box3{
+    width: 100%;
+    text-align: center;
+}
+.s3 .b3 .box3 .card{
+    height: 50px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+        
+.s3 .b4{
+    text-align: center;
+    width: 100%;
+    margin-top: 32px;
+}
+.s3 .b4 .box4{
+    width: 100%;
+    text-align: center;
+}
+.s3 .b4 .box4 .card{
+    height: 50px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.s3 .content2{
+    text-align: center;
+    width: 99%;
+    margin-top: 48px;
+}
+.s3 .content2 .article{
+    width: 100%;
+    text-align: center;
+}
+.s3 .content2 .article .card{
+    height: 380px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    background-color:  #7e7878;
+    border: 1px solid black;
+}
+.s3 .content3{
+    text-align: center;
+    width: 100%;
+    margin-top: 17px;
+}
+.s3 .content3 .footer{
+    width: 100%;
+    text-align: center;
+}
+.s3 .content3 .footer .card{
+    height: 58px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+footer{
+    margin-left: 13px;
+    margin-top: 1030px;
+    width: 98%;
+    padding: 10px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+</style>
+
+<body>
+    <h1>body</h1>
+
+        <section class="s1">
+            <h1>header</h1>
+            <div class="content">
+            <div class="nav">
+                <div class="box">
+                    <h1>nav</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="s2">
+            <h1>section</h1>
+            <div class="content">
+                <div class="header">
+                    <div class="card">
+                        <h1>header</h1>
+                    </div>
+                </div>
+            <div class="content1">
+                <div class="nav">
+                    <div class="card">
+                        <h1>nav</h1>
+                    </div>
+                </div>
+            <div class="content2">
+                <div class="footer">
+                    <div class="card">
+                        <h1>footer</h1>
+                    </div>
+                </div>
+      </section>
+
+      <section class="s3">
+        <h1>section</h1>
+        <div class="content">
+        <div class="header">
+            <div class="card">
+                <h1>header</h1>
+            </div>
+        </div>   
+      <div class="content1">
+        <div class="article">
+            <div class="card">
+                <h1>article</h1>
+                <div class="b1">
+                <div class="box1">
+                <div class="card">
+                <h1>header</h1></div>
+                
+                <div class="b2">
+                <div class="box2">
+                <div class="card">
+                <h1>p</h1></div>
+                
+                <div class="b3">
+                <div class="box3">
+                <div class="card">
+                <h1>p</h1></div>
+
+                <div class="b4">
+                <div class="box4">
+                <div class="card">
+                <h1>footer</h1></div>
+            </div>
+        </div>
+
+    <div class="content2">
+            <div class="article">
+            <div class="card">
+                <h1>article</h1>
+            </div>
+        </div>
+    <div class="content3">
+        <div class="footer">
+        <div class="card">
+            <h1>footer</h1>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h1>footer</h1>
+    </footer>
+</body>
+    </html>
