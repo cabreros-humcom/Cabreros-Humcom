@@ -1,5 +1,5 @@
 document.addEventListener ('DOMContentLoaded' , function(event) {
-    document.getElementById("a").placeholder = "Jose Cabreros";
+    document.getElementById("a").placeholder = "Jose F. Cabreros II";
     document.getElementById("b").placeholder = "27 ";
     document.getElementById("c").placeholder = "+63 918 3490 251";
     document.getElementById("d").placeholder = "josecabreros27@gmail.com ";
